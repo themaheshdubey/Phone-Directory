@@ -49,9 +49,7 @@ prime area i.e., the area that contains all of the home addresses.
 When a collision occurs, the prime area addresses are searched 
 for an open or unoccupied element using linear probing.
 Steps for inserting entities in a hash table: 
-
 • If the location is empty, directly insert the entity. 
-
 • If mapped location is occupied then keep probing until an 
 empty slot is found. Once an empty slot is found, insert
 the entity.
