@@ -5,7 +5,7 @@ Abstract of Project:
 In this Project we will be creating a Phone Directory using the Hash 
 Table data Structure.
 
-▪ Goal
+ Goal--------------------->
 
 Our Goal of this project is to optimise the time complexity of the 
 code and make searching, deletion, updation and insertion in record 
@@ -13,7 +13,7 @@ as fast as possible. This is done through hash table since amortized
 time complexity for it is O(1) unless all keys will hash to the same 
 bracket which is highly unlikely.
 
-▪ Functions
+ Functions----------------->
 
 The task of this project to implement all functions of phone 
 directory:
@@ -36,11 +36,8 @@ matches with the key it displays the record detail.
 • Update Record- This method takes the key of the record to 
 be searched. Then, it traverses the hash table, if record id 
 matches with the key then it displays the record detail.
-We will be taking following data from the client
+We will be taking ID , NAME and TELEPHONE NUMBER from the client.
 
-• ID
-• Name
-• Telephone number
 
 We are creating a hash table and inserting records. For deleting, 
 searching, or updating an entity, the client ID is asked and on the 
